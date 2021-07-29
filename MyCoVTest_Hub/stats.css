@@ -1,0 +1,59 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+h3 {
+  margin: 13px;
+  font-weight: bold;
+  font-size: 2.5vw;
+}
+
+.box-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.stats {
+  float: left;
+  width: 25%;
+  height: 150px;
+  background-color: #ffffff;
+  border-right: 2px solid #ececec;
+  text-align: center;
+}
+
+.stats .box-header {
+  background-color: #088873;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.1vw;
+  height: 60px;
+  padding-top: 20px;
+}
+
+.stats .box-content {
+  position: relative;
+  margin: 2% auto 15%;
+  width: 130px;
+  height: 130px;
+}
+
+.stats .box-content .num {
+  font-size: 3vw;
+  font-weight: bold;
+  color: #4cad9a;
+  padding-top: 10px;
+}
+
+.chartP {
+  width: 100%;
+  height: 250px;
+}
+
+.chartB {
+  width: 100%;
+  height: 250px;
+}
